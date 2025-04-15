@@ -1,0 +1,599 @@
+{  
+    "recipes": [
+    {
+        "name": "Chicken Noodle Soup",
+        "description": "A warm and comforting soup with tender chicken, hearty noodles, and flavorful broth.",
+        "imageUrl": "../Images/chickenNoodleSoup.jpg",
+        "price": "$10.99",
+        "directions": [
+            "Boil noodles until tender, then drain and set aside.",
+            "Sauté onions, carrots, and celery in a pot until softened.",
+            "Add garlic, then pour in chicken broth and bring to a simmer.",
+            "Season with salt, pepper, and herbs.",
+            "Add shredded chicken and cook through.",
+            "Stir in noodles, simmer briefly, then serve hot."
+        ],
+        "tags": ["Healthy", "Dinner", "Lunch", "Soup"],
+        "ingredients": [
+            "Chicken",
+            "Egg Noodles",
+            "Chicken Broth",
+            "Carrots",
+            "Celery",
+            "Onion",
+            "Garlic",
+            "Salt",
+            "Pepper",
+            "Thyme",
+            "Parsley",
+            "Olive Oil"
+        ],
+        "prepTime": "15 mins",
+        "cookTime": "25 mins"
+    },
+    {
+        "name": "Smoothie Breakfast Bowl",
+        "description": "A thick and creamy smoothie base topped with fresh fruits, granola, nuts, and seeds for a nutritious and visually appealing breakfast.",
+        "imageUrl": "../Images/smoothieBowl.jpg",
+        "price": "$5.99",
+        "tags": ["Breakfast", "Healthy", "Fruity"],
+        "ingredients": [
+            "Frozen Mixed Berries",
+            "Frozen Banana",
+            "Greek Yogurt",
+            "Almond Milk",
+            "Honey",
+            "Granola",
+            "Chia Seeds",
+            "Sliced Almonds",
+            "Fresh Berries"
+        ],
+        "directions": [
+            "Blend frozen mixed berries, banana, yogurt, almond milk, and honey until smooth and creamy.",
+            "Pour into a bowl and top with granola, chia seeds, almonds, and fresh berries.",
+            "Serve immediately and enjoy!"
+        ],
+        "prepTime": "10 mins",
+        "cookTime": "0 mins"
+    },
+    {
+        "name": "Pancakes with Caramel Sauce",
+        "imageUrl": "../Images/pancakesWithCaramelSauce.jpg",
+        "tags": ["Breakfast"],
+        "description": "Fluffy golden pancakes drizzled with rich caramel sauce and topped with fresh strawberries for a sweet and indulgent treat.",
+        "ingredients": [
+            "All-Purpose Flour",
+            "Baking Powder",
+            "Sugar",
+            "Salt",
+            "Milk",
+            "Egg",
+            "Butter",
+            "Vanilla Extract",
+            "Caramel Sauce",
+            "Fresh Strawberries"
+        ],
+        "directions": [
+            "Whisk together flour, baking powder, sugar, and salt in a bowl.",
+            "In another bowl, mix milk, egg, melted butter, and vanilla extract.",
+            "Combine wet and dry ingredients until just mixed, then cook pancakes on a greased pan until golden brown.",
+            "Drizzle with warm caramel sauce and top with fresh strawberries.",
+            "Serve immediately and enjoy!"
+        ],
+        "prepTime": "10 mins",
+        "cookTime": "15 mins",
+        "price": "$8.99"
+
+    },
+    {
+        "name": "Pasta with Cherry Tomatoes and Spinach",
+        "imageUrl": "../Images/pastaWithCherryTomatoesAndSpinach.jpg",
+        "tags": ["Dinner", "Pasta"],
+        "description": "A light and flavorful pasta dish with sweet cherry tomatoes, fresh spinach, and a hint of garlic, all tossed in olive oil for a quick and healthy meal.",
+        "ingredients": [
+            "Pasta",
+            "Cherry Tomatoes",
+            "Fresh Spinach",
+            "Garlic",
+            "Olive Oil",
+            "Salt",
+            "Pepper",
+            "Parmesan Cheese"
+        ],
+        "directions": [
+            "Cook pasta according to package instructions and set aside.",
+            "Sauté garlic in olive oil until fragrant, then add cherry tomatoes and cook until soft.",
+            "Stir in fresh spinach until wilted.",
+            "Toss cooked pasta with the tomato-spinach mixture, seasoning with salt and pepper.",
+            "Serve with a sprinkle of Parmesan cheese on top."
+        ],
+        "prepTime": "10 mins",
+        "cookTime": "15 mins",
+        "price": "$12.99"
+
+        },
+        {
+            "name": "Iced Frappe",
+            "description": "A rich and creamy blended coffee drink topped with whipped cream, perfect for a refreshing caffeine boost.",
+            "imageUrl": "../Images/frappe.jpg",
+            "price": "$5.49",
+            "tags": ["Drink", "Coffee"],
+            "ingredients": [
+                "Brewed Coffee",
+                "Milk",
+                "Ice",
+                "Sugar",
+                "Whipped Cream",
+                "Chocolate Syrup (optional)"
+            ],
+            "directions": [
+                "Blend brewed coffee, milk, ice, and sugar until smooth.",
+                "Pour into a glass and top with whipped cream.",
+                "Drizzle with chocolate syrup if desired, then serve!"
+            ],
+            "prepTime": "5 mins",
+            "cookTime": "0 mins"
+        },
+        {
+            "name": "Eggs and Toast Breakfast",
+            "description": "A classic and simple breakfast with golden toast and perfectly cooked eggs for a nutritious start to the day.",
+            "imageUrl": "../Images/eggsAndToast.jpg",
+            "price": "$6.99",
+            "tags": ["Breakfast"],
+            "ingredients": [
+                "Eggs",
+                "Bread",
+                "Butter",
+                "Salt",
+                "Pepper"
+            ],
+            "directions": [
+                "Toast the bread until golden brown and spread with butter.",
+                "Cook eggs to your preferred style (scrambled, fried, or poached).",
+                "Season with salt and pepper, then serve with toast."
+            ],
+            "prepTime": "5 mins",
+            "cookTime": "5 mins"
+        },
+        {
+            "name": "Tomato Soup",
+            "description": "A warm and comforting bowl of creamy tomato soup, perfect for chilly days or pairing with grilled cheese.",
+            "imageUrl": "../Images/tomatoSoup.jpg",
+            "price": "$7.99",
+            "tags": ["Soup", "Dinner", "Lunch", "Side Dish"],
+            "ingredients": [
+                "Tomatoes",
+                "Vegetable Broth",
+                "Garlic",
+                "Onion",
+                "Heavy Cream",
+                "Salt",
+                "Pepper",
+                "Olive Oil"
+            ],
+            "directions": [
+                "Sauté onions and garlic in olive oil until soft.",
+                "Add chopped tomatoes and vegetable broth, then simmer until tomatoes are tender.",
+                "Blend until smooth, then stir in heavy cream.",
+                "Season with salt and pepper, then serve hot."
+            ],
+            "prepTime": "10 mins",
+            "cookTime": "20 mins"
+        },
+        {
+            "name": "Chip Bowl Snack Mix",
+            "description": "A crunchy and flavorful mix of chips and snacks, perfect for sharing at parties or enjoying as a solo treat.",
+            "imageUrl": "../Images/chipBowlThing.jpg",
+            "price": "$4.99",
+            "tags": ["Snack", "Side Dish"],
+            "ingredients": [
+                "Potato Chips",
+                "Tortilla Chips",
+                "Pretzels",
+                "Cheese Puffs",
+                "Seasoning Mix"
+            ],
+            "directions": [
+                "Mix all snack ingredients in a large bowl.",
+                "Sprinkle with your favorite seasoning mix for extra flavor.",
+                "Serve in a large bowl and enjoy!"
+            ],
+            "prepTime": "5 mins",
+            "cookTime": "0 mins"
+        },
+        {
+            "name": "Garlic Herb French Fries",
+            "description": "Crispy golden French fries tossed with fresh herbs and garlic for a flavorful twist on a classic favorite.",
+            "imageUrl": "../Images/garlicHerbFries.jpg",
+            "price": "$4.99",
+            "tags": ["Snack", "Side Dish"],
+            "ingredients": [
+                "Russet Potatoes",
+                "Vegetable Oil",
+                "Salt",
+                "Garlic",
+                "Fresh Parsley",
+                "Parmesan Cheese (optional)"
+            ],
+            "directions": [
+                "Cut the potatoes into thin strips and soak them in cold water for 30 minutes.",
+                "Heat vegetable oil in a deep fryer or pan to 350°F (175°C).",
+                "Drain and pat dry the potatoes, then fry them in batches until golden and crispy.",
+                "Remove fries and drain excess oil on paper towels.",
+                "Toss with minced garlic, chopped parsley, and salt while still hot.",
+                "Serve immediately with your favorite dipping sauce."
+            ],
+            "prepTime": "35 mins",
+            "cookTime": "15 mins"
+        },
+        {
+            "name": "Blueberry Crumble Cookies",
+            "description": "Soft, buttery cookies packed with fresh blueberries and a crumbly streusel topping, perfect for a sweet breakfast or dessert.",
+            "imageUrl": "../Images/blueberryCookies.jpg",
+            "price": "$6.49",
+            "tags": ["Dessert", "Breakfast", "Fruity"],
+            "ingredients": [
+                "All-Purpose Flour",
+                "Granulated Sugar",
+                "Unsalted Butter",
+                "Egg",
+                "Baking Powder",
+                "Vanilla Extract",
+                "Fresh Blueberries",
+                "Lemon Zest",
+                "Powdered Sugar"
+            ],
+            "directions": [
+                "Preheat the oven to 350°F (175°C) and line a baking sheet with parchment paper.",
+                "In a bowl, mix flour, baking powder, and a pinch of salt.",
+                "In a separate bowl, cream together butter and sugar until light and fluffy.",
+                "Add egg and vanilla extract, then slowly mix in the dry ingredients.",
+                "Gently fold in fresh blueberries and lemon zest.",
+                "Scoop dough onto the baking sheet and bake for 12-15 minutes until golden brown.",
+                "Let cool, dust with powdered sugar, and serve."
+            ],
+            "prepTime": "15 mins",
+            "cookTime": "15 mins"
+        },
+        {
+            "name": "Golden Sesame Bread Rolls",
+            "description": "Fluffy, golden-brown bread rolls topped with toasted sesame seeds, offering a light crunch and rich aroma.",
+            "imageUrl": "../Images/bread.jpg",
+            "price": "$3.99",
+            "tags": ["Baked", "Side Dish"],
+            "ingredients": [
+                "All-Purpose Flour",
+                "Yeast",
+                "Warm Water",
+                "Sugar",
+                "Salt",
+                "Unsalted Butter",
+                "Egg",
+                "Milk",
+                "Sesame Seeds"
+            ],
+            "directions": [
+                "In a small bowl, dissolve yeast and sugar in warm water; let sit for 5-10 minutes until foamy.",
+                "In a large bowl, combine flour and salt, then mix in yeast mixture, butter, and milk.",
+                "Knead the dough for about 10 minutes until smooth, then let it rise for 1-2 hours until doubled in size.",
+                "Punch down the dough and shape into small rolls; place them on a baking sheet.",
+                "Brush with egg wash and sprinkle sesame seeds on top.",
+                "Bake at 375°F (190°C) for 15-20 minutes until golden brown.",
+                "Let cool slightly and serve warm."
+            ],
+            "prepTime": "20 mins (plus rise time)",
+            "cookTime": "20 mins"
+        },
+        {
+            "name": "Cinnamon Rolls",
+            "description": "Soft and fluffy rolls filled with a sweet cinnamon-sugar filling and topped with a rich cream cheese glaze.",
+            "imageUrl": "../Images/cinnamonRoles.jpg",
+            "price": "$5.99",
+            "tags": ["Dessert","Breakfast", "Baked"],
+            "ingredients": [
+                "All-Purpose Flour",
+                "Yeast",
+                "Milk",
+                "Butter",
+                "Sugar",
+                "Eggs",
+                "Cinnamon",
+                "Brown Sugar",
+                "Cream Cheese",
+                "Powdered Sugar"
+            ],
+            "directions": [
+                "Prepare the dough by mixing flour, yeast, warm milk, butter, and eggs.",
+                "Let the dough rise for 1-2 hours until doubled in size.",
+                "Roll out the dough, spread melted butter, and sprinkle with cinnamon and brown sugar.",
+                "Roll it up and cut into pieces, then let them rise again.",
+                "Bake at 350°F (175°C) for 20-25 minutes until golden brown.",
+                "Top with cream cheese frosting and serve warm."
+            ],
+            "prepTime": "20 mins (plus rise time)",
+            "cookTime": "25 mins"
+        },
+        {
+            "name": "Dumplings",
+            "description": "Delicious bite-sized dumplings filled with a savory meat and vegetable mixture, steamed or pan-fried to perfection.",
+            "imageUrl": "../Images/dumplings.jpg",
+            "price": "$7.49",
+            "tags": ["Asian Cuisine", "Lunch", "Dinner"],
+            "ingredients": [
+                "Dumpling Wrappers",
+                "Ground Pork or Chicken",
+                "Cabbage",
+                "Garlic",
+                "Ginger",
+                "Soy Sauce",
+                "Sesame Oil",
+                "Green Onions"
+            ],
+            "directions": [
+                "Mix ground meat, chopped cabbage, garlic, ginger, soy sauce, and sesame oil in a bowl.",
+                "Place a small amount of filling in a dumpling wrapper and fold it, sealing the edges.",
+                "Steam, pan-fry, or boil the dumplings until cooked through.",
+                "Serve with soy sauce or dipping sauce of choice."
+            ],
+            "prepTime": "30 mins",
+            "cookTime": "15 mins"
+        },
+        {
+            "name": "Berry-Topped Toast",
+            "description": "Crispy toast topped with sweet strawberry jam and fresh strawberries and blueberries for a fruity breakfast.",
+            "imageUrl": "../Images/fruityToastBreakfast.jpg",
+            "price": "$4.49",
+            "tags": ["Breakfast", "Fruity"],
+            "ingredients": [
+                "Bread (Whole Grain or White)",
+                "Strawberry Jam",
+                "Fresh Strawberries",
+                "Fresh Blueberries",
+                "Butter (Optional)"
+            ],
+            "directions": [
+                "Toast the bread until golden and crispy.",
+                "Spread a generous layer of strawberry jam on top.",
+                "Top with fresh sliced strawberries and blueberries.",
+                "Optionally, drizzle with honey or sprinkle with powdered sugar."
+            ],
+            "prepTime": "5 mins",
+            "cookTime": "2 mins"
+        },
+        {
+            "name": "Hot Pot",
+            "description": "A communal dining experience where fresh ingredients are cooked in a simmering flavorful broth at the table.",
+            "imageUrl": "../Images/hotPot.jpg",
+            "price": "$12.99",
+            "tags": ["Asian Cuisine", "Lunch", "Soup", "Dinner"],
+            "ingredients": [
+                "Hot Pot Broth (Spicy or Mild)",
+                "Thinly Sliced Meat",
+                "Seafood",
+                "Vegetables",
+                "Tofu",
+                "Noodles",
+                "Dipping Sauces"
+            ],
+            "directions": [
+                "Prepare a pot of flavorful broth and bring it to a gentle boil.",
+                "Add ingredients to the pot and cook until done.",
+                "Dip cooked ingredients in sauces and enjoy."
+            ],
+            "prepTime": "15 mins",
+            "cookTime": "Varies"
+        },
+        {
+            "name": "Latte",
+            "description": "A creamy coffee drink made with rich espresso and steamed milk, topped with light foam.",
+            "imageUrl": "../Images/latte.jpg",
+            "price": "$4.99",
+            "tags": ["Drink", "Coffee"],
+            "ingredients": [
+                "Espresso",
+                "Steamed Milk",
+                "Foamed Milk"
+            ],
+            "directions": [
+                "Brew a shot of espresso.",
+                "Steam milk until frothy.",
+                "Pour the steamed milk over the espresso and top with foam."
+            ],
+            "prepTime": "5 mins",
+            "cookTime": "2 mins"
+        },
+        {
+            "name": "Caramel Crunch Milkshake",
+            "description": "A thick and creamy caramel milkshake with crunchy caramel pieces for extra texture.",
+            "imageUrl": "../Images/milkshake.jpg",
+            "price": "$5.99",
+            "tags": ["Drink", "Dessert"],
+            "ingredients": [
+                "Vanilla Ice Cream",
+                "Milk",
+                "Caramel Sauce",
+                "Whipped Cream",
+                "Caramelized Sugar Chunks"
+            ],
+            "directions": [
+                "Blend ice cream, milk, and caramel sauce until smooth.",
+                "Pour into a glass and top with whipped cream and caramel crunch.",
+                "Drizzle with extra caramel sauce and serve."
+            ],
+            "prepTime": "5 mins",
+            "cookTime": "2 mins"
+        },
+        {
+            "name": "Mixed Berry Smoothie",
+            "description": "A refreshing smoothie made with a blend of mixed berries and fresh mint leaves.",
+            "imageUrl": "../Images/mixedBerrySmoothie.jpg",
+            "price": "$5.49",
+            "tags": ["Drink", "Healthy", "Fruity"],
+            "ingredients": [
+                "Blackberries",
+                "Raspberries",
+                "Blueberries",
+                "Greek Yogurt",
+                "Honey",
+                "Mint Leaves"
+            ],
+            "directions": [
+                "Blend all ingredients until smooth.",
+                "Pour into a glass and garnish with mint leaves."
+            ],
+            "prepTime": "5 mins",
+            "cookTime": "2 mins"
+        },
+        {
+            "name": "Chicken Katsu Ramen",
+            "description": "A savory bowl of ramen with crispy breaded chicken and fresh green onions.",
+            "imageUrl": "../Images/noodles.jpg",
+            "price": "$9.99",
+            "tags": ["Asian Cuisine", "Lunch", "Pasta", "Dinner"],
+            "ingredients": [
+                "Ramen Noodles",
+                "Chicken Breast",
+                "Panko Breadcrumbs",
+                "Egg",
+                "Soy Sauce",
+                "Green Onions",
+                "Chicken Broth"
+            ],
+            "directions": [
+                "Bread and fry chicken breast until crispy.",
+                "Cook ramen noodles and prepare the broth.",
+                "Slice chicken and serve over ramen with green onions."
+            ],
+            "prepTime": "20 mins",
+            "cookTime": "15 mins"
+        },
+        {
+            "name": "Veggie Pesto Pasta",
+            "description": "A fresh and flavorful pasta dish with homemade basil pesto and a variety of sautéed vegetables.",
+            "imageUrl": "../Images/pesto.jpg",
+            "price": "$8.99",
+            "tags": ["Lunch", "Dinner", "Pasta"],
+            "ingredients": [
+                "Pasta (Penne or Spaghetti)",
+                "Basil Leaves",
+                "Garlic",
+                "Pine Nuts",
+                "Olive Oil",
+                "Parmesan Cheese",
+                "Cherry Tomatoes",
+                "Zucchini",
+                "Bell Peppers"
+            ],
+            "directions": [
+                "Cook pasta according to package instructions.",
+                "Blend basil, garlic, pine nuts, olive oil, and Parmesan to make pesto.",
+                "Sauté vegetables until tender.",
+                "Toss pasta with pesto and vegetables before serving."
+            ],
+            "prepTime": "15 mins",
+            "cookTime": "20 mins"
+        },
+        {
+            "name": "Raspberry Blueberry Smoothie",
+            "description": "A creamy and refreshing smoothie packed with the natural sweetness of raspberries and blueberries.",
+            "imageUrl": "../Images/raspberrySmoothie.jpg",
+            "price": "$5.49",
+            "tags": ["Drink", "Healthy", "Fruity"],
+            "ingredients": [
+                "Raspberries",
+                "Blueberries",
+                "Greek Yogurt",
+                "Honey",
+                "Milk or Almond Milk",
+                "Ice Cubes"
+            ],
+            "directions": [
+                "Blend all ingredients until smooth.",
+                "Pour into a glass and serve chilled."
+            ],
+            "prepTime": "5 mins",
+            "cookTime": "2 mins"
+        },
+        {
+            "name": "Strawberry Yogurt Bowl",
+            "description": "A nutritious yogurt bowl topped with fresh fruit, crunchy walnuts, and hearty oats.",
+            "imageUrl": "../Images/strawberryDesert.jpg",
+            "price": "$4.99",
+            "tags": ["Breakfast", "Healthy", "Fruity", "Dessert"],
+            "ingredients": [
+                "Strawberry Yogurt",
+                "Fresh Strawberries",
+                "Blackberries",
+                "Walnuts",
+                "Rolled Oats",
+                "Honey (Optional)"
+            ],
+            "directions": [
+                "Scoop strawberry yogurt into a bowl.",
+                "Top with sliced strawberries, blackberries, walnuts, and oats.",
+                "Drizzle with honey if desired and serve."
+            ],
+            "prepTime": "5 mins",
+            "cookTime": "1 min"
+        },
+        {
+            "name": "Vanilla Yogurt with Strawberries & Oats",
+            "description": "A simple yet delicious yogurt bowl with fresh strawberries and oats for a balanced breakfast.",
+            "imageUrl": "../Images/strawberryOatsYogurt.jpg",
+            "price": "$4.49",
+            "tags": ["Breakfast", "Healthy", "Fruity"],
+            "ingredients": [
+                "Vanilla Yogurt",
+                "Fresh Strawberries",
+                "Rolled Oats",
+                "Honey (Optional)"
+            ],
+            "directions": [
+                "Scoop vanilla yogurt into a bowl.",
+                "Top with sliced strawberries and oats.",
+                "Drizzle with honey if desired and serve."
+            ],
+            "prepTime": "5 mins",
+            "cookTime": "1 min"
+        },
+        {
+            "name": "Fruit & Chocolate Waffles",
+            "description": "Golden waffles topped with fresh fruit, chocolate drizzle, and whipped cream for a sweet indulgence.",
+            "imageUrl": "../Images/waffles.jpg",
+            "price": "$7.99",
+            "tags": ["Breakfast", "Dessert"],
+            "ingredients": [
+                "Waffle Batter",
+                "Fresh Strawberries",
+                "Bananas",
+                "Blueberries",
+                "Chocolate Sauce",
+                "Whipped Cream",
+                "Powdered Sugar (Optional)"
+            ],
+            "directions": [
+                "Prepare and cook waffles until golden brown.",
+                "Top with sliced strawberries, bananas, and blueberries.",
+                "Drizzle with chocolate sauce and add whipped cream.",
+                "Sprinkle with powdered sugar for extra sweetness."
+            ],
+            "prepTime": "10 mins",
+            "cookTime": "5 mins"
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+]}

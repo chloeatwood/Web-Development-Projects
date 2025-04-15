@@ -1,0 +1,19 @@
+{
+    "futureWork": [
+        {
+            "possibilityOne": "Enable users to leave reviews and rate meals, providing feedback to the business and helping other customers decide",
+            "possibilityTwo": "Include basic nutritional facts (calories, protein, carbs, fats) for each recipe",
+            "possibilityThree": "Expand filtering options to include attributes like spice level, preparation time, or allergens",
+            "possibilityFour" : "Add a “Print Recipe” button that formats recipes into an easy-to-read, printable layout"
+        }
+    ],
+ 
+    "otherFutureWork": [
+        {
+            "possibilityFive": "Enable users to save meals they like to a personal favorites list for easy access later",
+            "possibilitySix": "Automatically create a shopping list with all the ingredients needed for the selected recipes",
+            "possibilitySeven" : "Add an option to translate the apps content into another language for broader accessibility",
+            "possibilityEight": "Let users create personalized meal plans for the week"
+        }
+    ]
+}

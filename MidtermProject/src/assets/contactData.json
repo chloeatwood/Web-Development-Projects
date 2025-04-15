@@ -1,0 +1,66 @@
+{
+  "topSection": {
+    "aboutUs": {
+      "heading": "About The Prep Pantry",
+      "description": "The Prep Pantry is dedicated to making cooking easy and accessible. We believe that nutritious, delicious meals shouldn’t be a hassle. Our mission is to provide freshly prepared, balanced meals that fit into your busy lifestyle.",
+      "owners": [
+        {
+          "profile": "../Images/jane.jpeg",
+          "name": "Jane Doe - Head Chef & Nutritionist",
+          "bio": "With over 10 years of experience in culinary nutrition, I’m passionate about creating meals that nourish and satisfy while maintaining convenience."
+        },
+        {
+          "profile": "../Images/john.jpeg",
+          "name": "John Smith - Operations & Business Manager",
+          "bio": "I’ve always loved food and fitness, and I wanted to help people make healthier choices without sacrificing time or quality."
+        }
+      ],
+      "image": "../Images/about-us.jpg"
+    },
+    "contactInfo": {
+      "heading": "Contact Us",
+      "address": "123 Sunshine Street, Fake Town, IA 50125",
+      "phone": "(515) 555-1234",
+      "email": "info@preppantry.com",
+      "hours": "Mon-Fri: 8 AM - 6 PM<br>Sat-Sun: 10 AM - 4 PM",
+      "image": "../Images/building.jpeg",
+      "socialMedia": [
+        {
+          "platform": "Facebook",
+          "iconClass": "bi bi-facebook",
+          "text": "Facebook"
+        },
+        {
+          "platform": "Instagram",
+          "iconClass": "bi bi-instagram",
+          "text": "Instagram"
+        },
+        {
+          "platform": "TikTok",
+          "iconClass": "bi bi-tiktok",
+          "text": "TikTok"
+        }
+      ]
+    }
+  },
+  "bottomSection": [
+    {
+      "heading": "Single Meal",
+      "image": "../Images/hotPot.jpg",
+      "price": "Varies per meal",
+      "description": "Perfect for those who need an occasional, easy meal on the go. Choose from our <a href='./recipes.html' class='links'>menu</a>."
+    },
+    {
+      "heading": "Bulk Meal",
+      "image": "../Images/bulk-meal.jpg",
+      "price": "$45 for 5 meals",
+      "description": "Save money and plan ahead with our bulk meal options. Choose any 5 meals from our <a href='./recipes.html' class='links'>menu</a>."
+    },
+    {
+      "heading": "Subscription",
+      "image": "../Images/subscription.jpeg",
+      "price": "$160/month",
+      "description": "Enjoy hassle-free meal prep with 20 meals per month, customized to your preferences."
+    }
+  ]
+}

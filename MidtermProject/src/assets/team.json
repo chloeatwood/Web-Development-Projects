@@ -1,0 +1,18 @@
+{
+  "course": "COMS 3190 - Construction of User Interfaces, Spring 2025",
+  "date": "March 13, 2025",
+  "students": [
+    {
+      "name": "Chloe Atwood",
+      "icon": "bi-laptop",
+      "email": "catwood8@iastate.edu",
+      "major": "Software Engineering"
+    },
+    {
+      "name": "Hailey Akinsola",
+      "icon": "bi-music-note-beamed",
+      "email": "haakin27@iastate.edu",
+      "major": "Computer Science and Technical Communication"
+    }
+  ]
+}

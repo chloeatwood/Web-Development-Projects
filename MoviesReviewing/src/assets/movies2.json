@@ -1,0 +1,76 @@
+{
+    "comedyMovies": [
+        {
+            "title": "Deadpool & Wolverine",
+            "releaseYear": "2024",
+            "genre": "Comedy/Action/Adventure",
+            "cast": ["Ryan Reynolds", "Hugh Jackman", "Emma Corrin", "Morena Baccarin", "Rob Delaney", "Leslie Uggams", "Aaron Stanford", "Matthew Macfadyen"],
+            "description": "Deadpool teams up with a variant of Wolverine to prevent the Time Variance Authority from destroying his universe, embarking on a chaotic adventure filled with humor, action, and unexpected twists.",
+            "director": "Shawn Levy",
+            "image": "../Images/Comedy/deadpoolWolverine.avif"
+        },
+        {
+            "title": "Pitch Perfect 2",
+            "releaseYear": "2015",
+            "genre": "Comedy/Musical",
+            "cast": ["Anna Kendrick", "Rebel Wilson", "Elizabeth Banks", "Brittany Snow", "Hailee Steinfeld", "Anna Camp"],
+            "description": "It's been three years since the Barden Bellas became the first all-female group to win a national title. All seems well until a botched Lincoln Center performance for the president leads to a scandal that strips them of their performing duties, causing internal tension and strife. ",
+            "director": "Elizabeth Banks",
+            "image": "../Images/Comedy/pitchPerfect2.jpg"
+        },
+        {
+            "title": "The Hangover",
+            "releaseYear": "2009",
+            "genre": "Comedy",
+            "cast": ["Bradley Cooper", "Zach Galifianakis", "Ed Helms", "Justin Bartha", "Heather Graham"],
+            "description": "When three friends discover the bridegroom is missing, they must retrace their wild and drunken journey to find him before the wedding. Their attempts lead them to strange and dangerous situations as they piece together the events of the previous night.",
+            "director": "Todd Phillips",
+            "image": "../Images/Comedy/theHangover.jpg"
+        },
+        {
+            "title": "Free Guy",
+            "releaseYear": "2021",
+            "genre": "Comedy/Action/Science Fiction",
+            "cast": ["Ryan Reynolds", "Jodie Comer", "Taika Waititi", "Lil Rel Howery", "Joe Keery", "Utkarsh Ambudkar"],
+            "description": "A bank teller discovers that he's actually a non-playable character (NPC) in an open-world video game. As he becomes self-aware, he teams up with a player to save his world from being shut down by the game's developers.",
+            "director": "Shawn Levy",
+            "image": "../Images/Comedy/freeGuy.jpg"
+        },
+        {
+            "title": "Red Notice",
+            "releaseYear": "2021",
+            "genre": "Comedy/Action/Crime",
+            "cast": ["Dwayne Johnson", "Ryan Reynolds", "Gal Gadot"],
+            "description": "An FBI agent pursues the world's most wanted art thief, who is wanted for stealing priceless artifacts. Along the way, they form an unlikely partnership with a con artist, leading to a thrilling and action-packed adventure.",
+            "director": "Rawson Marshall Thurber",
+            "image": "../Images/Comedy/redNotice.jpg"
+        },
+        {
+            "title": "Spirited",
+            "releaseYear": "2022",
+            "genre": "Comedy/Musical/Fantasy",
+            "cast": ["Will Ferrell", "Ryan Reynolds", "Octavia Spencer", "Patrick Page"],
+            "description": "A modern musical reimagining of Charles Dickens' classic *A Christmas Carol*, with a comedic twist. The film follows a cynical businessman who is visited by three spirits in an attempt to change his selfish ways during the holiday season.",
+            "director": "Sean Anders",
+            "image": "../Images/Comedy/spirited.jpg"
+        },
+        {
+            "title": "The Heat",
+            "releaseYear": "2013",
+            "genre": "Comedy/Action",
+            "cast": ["Sandra Bullock", "Melissa McCarthy", "Demián Bichir", "Marlon Wayans", "Michael Rapaport", "Taran Killam"],
+            "description": "An uptight FBI special agent and a foul-mouthed Boston cop team up to take down a drug lord. While working together to catch the criminal, the two women clash over their contrasting methods and personalities.",
+            "director": "Paul Feig",
+            "image": "../Images/Comedy/theHeat.jpg"
+        },
+        {
+            "title": "21 Jump Street",
+            "releaseYear": "2012",
+            "genre": "Comedy/Action",
+            "cast": ["Jonah Hill", "Channing Tatum", "Ice Cube", "Dave Franco", "Brie Larson", "Rob Riggle"],
+            "description": "A pair of underachieving cops are sent back to high school to infiltrate a drug ring. Their comedic journey brings them face-to-face with their teenage selves and puts their partnership to the test.",
+            "director": "Phil Lord, Christopher Miller",
+            "image": "../Images/Comedy/21JumpStreet.jpg"
+        }
+    ]
+}

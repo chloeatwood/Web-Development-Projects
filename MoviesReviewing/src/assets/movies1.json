@@ -1,0 +1,77 @@
+{
+    "horrorMovies": [
+        {
+            "title": "Annabelle",
+            "releaseYear" : "2014",
+            "genre" : "Horror",
+            "cast" : ["Annabelle Wallis", "Ward Horton", "Brian Howe", "Alfre Woodard", "Shiloh Nelson", "Kerry O'Malley", "Tony Amendola", "Gabriel Bateman"],
+            "description": "John Form thinks he's found the perfect gift for his expectant wife, Mia : a vintage doll in a beautiful white dress. However, the couple's delight doesn't last long: One terrible night, devil worshippers invade their home and launch a violent attack against the couple. When the cultists try to summon a demon, they smear a bloody rune on the nursery wall and drip blood on Mia's doll, thereby turning the former object of beauty into a conduit for ultimate evil.",
+            "director" : "Josn R. Leonetti",
+            "image" : "../Images/Horror/Annabelle.jpg"
+        },
+        {
+            "title": "IT",
+            "releaseYear": "2017",
+            "genre": "Horror",
+            "cast": ["Jaeden Lieberher", "Jeremy Ray Taylor", "Sophia Lillis", "Finn Wolfhard", "Chosen Jacobs", "Jack Dylan Grazer", "Wyatt Oleff", "Nicholas Hamilton", "Bill Skarsgård"],
+            "description": "In the town of Derry, Maine, seven children known as 'The Losers Club' are united by their horrifying encounters with an ancient, shape-shifting entity that takes the form of a clown called Pennywise. As they face their fears, the group must come together to confront the monster that has terrorized their town for centuries.",
+            "director": "Andy Muschietti",
+            "image": "../Images/Horror/IT.jpg"
+        },
+        {
+            "title": "The Conjuring",
+            "releaseYear": "2013",
+            "genre": "Horror",
+            "cast": ["Vera Farmiga", "Patrick Wilson", "Lili Taylor", "Ron Livingston", "Joey King", "Mackenzie Foy", "Shannon Kook", "John Brotherton"],
+            "description": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse. The haunting begins innocently enough, but as the family's situation becomes more dangerous, the Warrens must confront the demon and its terrifying power before it's too late.",
+            "director": "James Wan",
+            "image": "../Images/Horror/theConjuring.jpg"
+        },
+        {
+            "title": "A Nightmare on Elm Street",
+            "releaseYear": "1984",
+            "genre": "Horror",
+            "cast": ["Heather Langenkamp", "Johnny Depp", "Robert Englund", "Ronee Blakley", "John Saxon", "Amanda Wyss", "Nick Corri", "Jsu Garcia"],
+            "description": "A group of teenagers in the small town of Springwood are being stalked in their dreams by a disfigured man named Freddy Krueger, who has the ability to kill them in their sleep. As the terror escalates, one teenager, Nancy, must confront Freddy in the dream world to survive.",
+            "director": "Wes Craven",
+            "image": "../Images/Horror/aNightmareOnElmStreet.jpg"
+        },
+        {
+            "title": "Five Nights at Freddys",
+            "releaseYear": "2023",
+            "genre": "Horror",
+            "cast": ["Josh Hutcherson", "Elizabeth Lail", "Piper Rubio", "Mary Stuart Masterson", "Matthew Lillard"],
+            "description": "A troubled security guard begins working at Freddy Fazbear's Pizza. During his five nights on the job, he realizes that something is wrong with the pizzeria and its animatronic mascots.",
+            "director": "Emma Tammi",
+            "image": "../Images/Horror/fiveNightsAtFreddys.jpg"
+        },
+        {
+            "title": "Cat People",
+            "releaseYear": "1942",
+            "genre": "Horror",
+            "cast": ["Simone Simon", "Tom Conway", "Kent Smith", "Julia Faye", "Elizabeth Russell", "Jack Holt"],
+            "description": "Irena Dubrovna, a Serbian woman living in New York, fears that she may transform into a panther if she experiences strong emotions like jealousy or anger. As she struggles with her fears, her new husband Oliver is caught in a disturbing chain of events that involves a series of strange deaths and mysterious occurrences, linked to Irena's dark family heritage.",
+            "director": "Jacques Tourneur",
+            "image": "../Images/Horror/catPeople.jpg"
+        },
+        {
+            "title": "Get Out",
+            "releaseYear": "2017",
+            "genre": "Horror/Thriller",
+            "cast": ["Daniel Kaluuya", "Allison Williams", "Catherine Keener", "Bradley Whitford", "Caleb Landry Jones"],
+            "description": "A young African-American man visits his white girlfriend's family estate, where his encounter with unsettling events leads him to uncover a horrifying secret. The film combines psychological horror with sharp social commentary.",
+            "director": "Jordan Peele",
+            "image": "../Images/Horror/getOut.png"
+        },
+        {
+            "title": "It Follows",
+            "releaseYear": "2014",
+            "genre": "Horror/Mystery",
+            "cast": ["Maika Monroe", "Keir Gilchrist", "Olivia Luccardi", "Jake Weary", "Lili Sepe"],
+            "description": "A teenager is stalked by a supernatural force that can take on any appearance. The entity relentlessly follows its victim, and the only way to survive is to pass the curse on to someone else.",
+            "director": "David Robert Mitchell",
+            "image": "../Images/Horror/itFollows.jpg"
+        }
+        
+    ]
+}

@@ -1,0 +1,92 @@
+{
+  "musicalMovies": [
+    {
+      "title": "The Sound of Music",
+      "year": 1965,
+      "genre": "Musical",
+      "cast": [
+        "Julie Andrews, Christopher Plummer, Charmian Carr, Heather Menzies, Angela Cartwright, Kym Karath, Nicholas Hammond, Duane Chase"
+      ],
+      "director": "Robert Wise",
+      "poster": "../Images/Musicals/sound-of-music.jpg",
+      "description": "A tuneful, heartwarming story, it is based on the real life story of the Von Trapp Family singers, one of the world's best-known concert groups in the era immediately preceding World War II. Maria, a tomboyish postulant at an Austrian abbey, becomes a governess in the home of a widowed naval captain with seven children, and brings a new love of life and music into the home."
+    },
+    {
+      "title": "Wicked",
+      "year": 2024,
+      "genre": "Musical",
+      "cast": [
+        "Ariana Grande, Cynthia Erivo, Jonathan Baily, Ethan Slater, Bowen Yang, Jeff Goldblum, Michelle Yeoh, Marissa Bode, Peter Dinklage"
+      ],
+      "director": "Jon M. Chu",
+      "poster": "../Images/Musicals/wicked.jpg",
+      "description": "Misunderstood because of her green skin, a young woman named Elphaba forges an unlikely but profound friendship with Glinda, a student with an unflinching desire for popularity. Following an encounter with the Wizard of Oz, their relationship soon reaches a crossroad as their lives begin to take very different paths."
+    },
+    {
+      "title": "Grease",
+      "year": 1978,
+      "genre": "Musical",
+      "cast": [
+        "Olivia Newton-John, John Travolta, Stockard Channing, Jeff Conaway, Didi Conn, Dinah Manoff, Kelly Ward, Michael Tucci, Barry Pearl"
+      ],
+      "director": "Randal Kleiser",
+      "poster": "../Images/Musicals/grease.jpg",
+      "description": "Experience the friendships, romances and adventures of a group of high school kids in the 1950s. Welcome to the singing and dancing world of Grease, the most successful movie musical of all time. A wholesome exchange student and a leather-clad Danny have a summer romance, but will it cross clique lines?"
+    },
+    {
+      "title": "High School Musical 3: Senior Year",
+      "year": 2008,
+      "genre": "Musical",
+      "cast": [
+        "Zac Efron, Vanessa Hudgens, Ashley Tisdale, Corbin Bleu, Lucas Grabeel, Monique Coleman, Olesya Rulin, KayCee Stroh, Chris Warren"
+      ],
+      "director": "Kenny Ortega",
+      "poster": "../Images/Musicals/high-school-musical3.jpeg",
+      "description": "Amid preparations for a basketball championship, prom, and graduation, sweethearts Troy Bolton and Gabriella Montez vow to savor every moment, knowing that college plans put the future of their relationship into question. An elaborate spring musical is just the thing for these two Wildcats and the rest of their classmates to express their fears and hopes for the future."
+    },
+    {
+      "title": "Dreamgirls",
+      "year": 2006,
+      "genre": "Musical",
+      "cast": [
+        "Jennifer Hudson, Beyoncé, Anika Noni Rose, Jamie Foxx, Loretta Devine, Eddie Murphy, Keith Robinson, Danny Glover, Sharon Leal"
+      ],
+      "director": "Bill Condon",
+      "poster": "../Images/Musicals/dreamgirls.jpeg",
+      "description": "Deena, Effie, and Lorrell form a music trio called the Dreamettes. When ambitious manager Curtis Taylor Jr. spots the act at a talent show, he offers the chance of a lifetime, to be backup singers for a national star. Taylor takes creative control of the group and eventually pushes the singers into the spotlight. However, one becomes the star, forcing another out, which teaches them about the high cost of fame."
+    },
+    {
+      "title": "The Greatest Showman",
+      "year": 2017,
+      "genre": "Musical",
+      "cast": [
+        "Hugh Jackman, Zac Efron, Zendaya, Keala Settle, Michelle Williams, Rebecca Ferguson, Cameron Seely, Austyn Johnson"
+      ],
+      "director": "Michael Gracey",
+      "poster": "../Images/Musicals/greatest-showman.jpeg",
+      "description": "Growing up in the early 1800s, P.T. Barnum displays a natural talent for publicity and promotion, selling lottery tickets by age 12. After trying his hands at various jobs, P.T. turns to show business to indulge his limitless imagination, rising from nothing to create the Barnum & Bailey circus. Featuring catchy musical numbers, exotic performers and daring acrobatic feats, Barnum's mesmerizing spectacle soon takes the world by storm to become the greatest show on Earth."
+    },
+    {
+      "title": "Into the Woods",
+      "year": 2014,
+      "genre": "Musical",
+      "cast": [
+        "Meryl Streep, Emily Blunt, Anna Kendrick, James Corden, Chris Pine, Johnny Depp, Lilla Crawford, Daniel Huttlestone, Billy Magnussen"
+      ],
+      "director": "Rob Marshall",
+      "poster": "../Images/Musicals/into-the-woods.jpeg",
+      "description": "As the result of the curse of a once-beautiful witch, a baker and his wife are childless. Three days before the rise of a blue moon, they venture into the forest to find the ingredients that will reverse the spell and restore the witch's beauty: a milk-white cow, hair as yellow as corn, a blood-red cape, and a slipper of gold. During their journey, they meet Cinderella, Little Red Riding Hood, Rapunzel and Jack, each one on a quest to fulfill a wish."
+    },
+    {
+      "title": "Annie",
+      "year": 1982,
+      "genre": "Musical",
+      "cast": [
+        "Aileen Quinn, Carol Burnett, Albert Finney, Tim Curry, Bernadette Peters, Ann Reinking, Toni Ann Gisondi, Geoffrey Holder"
+      ],
+      "director": "Michael Gracey",
+      "poster": "../Images/Musicals/annie.jpeg",
+      "description": "An orphan in a facility run by the mean Miss Hannigan, Annie believes that her parents left her there by mistake. When a rich man named Oliver Daddy Warbucks decides to let an orphan live at his home to promote his image, Annie is selected. While Annie gets accustomed to living in Warbucks' mansion, she still longs to meet her parents. So Warbucks announces a search for them and a reward, which brings out many frauds."
+    }
+  ]
+}

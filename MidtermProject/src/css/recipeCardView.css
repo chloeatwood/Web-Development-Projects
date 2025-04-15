@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column; /* Allows header, content, and footer to stack */
+    align-items: center; /* Centers content horizontally */
+    min-height: 100vh;
+    margin: 0;
+    padding: 0px; /* Adds space around content */
+    overflow-y: auto; /* Ensures scrolling */
+}
+
+.recipe-card {
+    background: #deded2;
+    width: 600px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    margin: 50px auto; /* Centers the card and adds spacing */
+    display: block; /* Ensures it does not behave inline */
+}
+
+.recipe-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.recipe-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.recipe-body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows stacking on small screens */
+}
+
+.ingredients-section, .directions-section {
+    width: 48%;
+}
+
+@media (max-width: 768px) {
+    .recipe-body {
+        flex-direction: column; /* Stack sections vertically on small screens */
+        align-items: center;
+    }
+
+    .ingredients-section, .directions-section {
+        width: 100%; /* Make sections full width */
+    }
+}
+
+.ingredients-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ingredients-section li {
+    display: flex;
+    align-items: center;
+}
+
+.ingredients-section li::before {
+    /* Checkbox style */
+    content: "⬜"; 
+    margin-right: 10px;
+}
+
+.recipe-footer {
+    margin-top: 20px;
+}
+
+#recipe-notes {
+    width: 100%;
+    height: 50px;
+}
+
+button {
+    background-color: #7a306c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #571f4c;
+}
+
+/* Navigation Menu */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b4965;
+    /* padding: 15px 30px; */
+    width: 100%; /* Ensures full width */
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between; /* Ensures items spread evenly */
+    align-items: center;
+    background-color: #1b4965;
+    /* padding: 15px 30px; */
+    width: 100%; /* Ensures full width */
+    position: relative; /* Keeps it within document flow */
+    bottom: 0;
+}
+

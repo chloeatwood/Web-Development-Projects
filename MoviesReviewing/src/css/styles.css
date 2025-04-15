@@ -1,0 +1,638 @@
+/* COLORS 
+DARK GRAY -- #2F2F2F
+RED -- #EB3737
+YELLOW -- #FFE74C
+POWDER BLUE -- #B1B7D1
+LIGHT YELLOW -- #fffffc
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.15;
+  background-color: #fffffc;
+}
+
+body {
+  background-color: #fffffc;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Montserrat, "Playfair Display", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+body,
+p {
+  font-family: Poppins, "Open Sans", sans-serif;
+}
+
+/* Navigation Menu */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2f2f2f;
+  padding: 15px 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fffffc;
+  font-weight: bold;
+}
+
+.logo .bi {
+  color: #fffffc;
+  font-size: 3em;
+}
+
+nav h1 {
+  font-size: 1.9em;
+}
+
+nav ul li {
+  font-size: 1em;
+  margin: 0 15px;
+  text-align: center;
+  padding: 8px;
+}
+
+.link,
+.navbar-nav .nav-link {
+  color: #fffffc;
+  font-weight: bold;
+}
+
+.link:hover,
+.navbar-nav .nav-link:hover {
+  transition: 0.4s ease-in-out;
+  color: #ffe74c;
+  text-shadow: 1px 1px 5px #2f2f2f;
+}
+
+.open {
+  background-color: #b1b7d1;
+}
+
+/* Style for the open page */
+.nav-item.open .nav-link {
+  color: #2f2f2f;
+}
+
+/* Prevent hover effect on open link */
+.nav-item.open .nav-link:hover {
+  color: #2f2f2f;
+  text-shadow: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #fffffc;
+  margin-left: 20px;
+}
+
+/* Footer */
+.footer {
+  align-items: center;
+}
+
+.footer-item {
+  padding-right: 5px;
+  padding-left: 5px;
+  text-align: center;
+}
+
+.footer-item .bi {
+  color: #fffffc;
+  font-size: 3em;
+}
+
+/* General reset for padding and margins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling for the container holding the movie cards */
+#horror-Movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adds space between cards */
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Styling for the container holding the movie cards */
+#comedy-Movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adds space between cards */
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Styling for the container holding the movie cards */
+#musical-Movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; /* Adds space between cards */
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/* Styling for individual movie cards */
+.col {
+  flex: 1 1 18rem; /* Ensures cards have equal width */
+  max-width: 18rem;
+}
+
+/* Bootstrap card customization */
+.card {
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow for better visual effect */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Prevents content overflow */
+  transition: transform 0.2s ease; /* Smooth scale transition on hover */
+  flex: 0 1 calc(33.33% - 20px); /* Make cards take up 1/3 of the container's width minus the gap */
+  box-sizing: border-box;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+/* Image styling within the card */
+.card-img-top {
+  width: 100%;
+  height: 500px;
+  object-fit: cover; /* Ensures image fits properly */
+}
+
+/* Card body styling */
+.card-body {
+  padding: 15px;
+  background-color: #fff;
+}
+
+/* Title and text styling inside the card */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* General button styling with higher specificity */
+#horror-Movie-list .btn {
+  display: inline-block; /* Makes the button inline-block like .movie-btn */
+  background-color: #ffe74c; /* Same background color as your .movie-btn */
+  color: #2f2f2f; /* Text color */
+  padding: 12px 20px; /* Adjust padding to match your desired look */
+  border-radius: 25px; /* Rounded corners */
+  border: 2px solid #2f2f2f; /* Border styling to match .movie-btn */
+  text-decoration: none; /* Removes any default text decorations */
+  font-weight: bold; /* Makes text bold */
+  margin-top: 10px; /* Adds top margin for spacing */
+  transition: 0.3s; /* Smooth transition for hover effect */
+  width: 100%; /* Make button full width */
+  text-align: center; /* Center align text */
+}
+
+/* Primary button (Write Review) */
+#horror-Movie-list .btn-primary {
+  background-color: #ffe74c;
+  color: #2f2f2f;
+  border: 2px solid #2f2f2f; /* Same border color */
+}
+
+/* Hover effect for primary button */
+#horror-Movie-list .btn-primary:hover {
+  background-color: #eb3737; /* Changes to red on hover */
+  color: #ffffff; /* Text turns white on hover */
+}
+
+/* Secondary button (View Reviews) */
+#horror-Movie-list .btn-secondary {
+  background-color: #eb3737;
+  color: white;
+  border: 2px solid #2f2f2f; /* Same border color */
+}
+
+/* Hover effect for secondary button */
+#horror-Movie-list .btn-secondary:hover {
+  background-color: #ffe74c; /* Changes to red on hover */
+  color: black; /* Text turns white on hover */
+}
+
+/* General button styling with higher specificity */
+#comedy-Movie-list .btn {
+  display: inline-block; /* Makes the button inline-block like .movie-btn */
+  background-color: #ffe74c; /* Same background color as your .movie-btn */
+  color: #2f2f2f; /* Text color */
+  padding: 12px 20px; /* Adjust padding to match your desired look */
+  border-radius: 25px; /* Rounded corners */
+  border: 2px solid #2f2f2f; /* Border styling to match .movie-btn */
+  text-decoration: none; /* Removes any default text decorations */
+  font-weight: bold; /* Makes text bold */
+  margin-top: 10px; /* Adds top margin for spacing */
+  transition: 0.3s; /* Smooth transition for hover effect */
+  width: 100%; /* Make button full width */
+  text-align: center; /* Center align text */
+}
+
+/* Primary button (Write Review) */
+#comedy-Movie-list .btn-primary {
+  background-color: #ffe74c;
+  color: #2f2f2f;
+  border: 2px solid #2f2f2f; /* Same border color */
+}
+
+/* Hover effect for primary button */
+#comedy-Movie-list .btn-primary:hover {
+  background-color: #eb3737; /* Changes to red on hover */
+  color: #ffffff; /* Text turns white on hover */
+}
+
+/* Secondary button (View Reviews) */
+#comedy-Movie-list .btn-secondary {
+  background-color: #eb3737;
+  color: white;
+  border: 2px solid #2f2f2f; /* Same border color */
+}
+
+/* Hover effect for secondary button */
+#comedy-Movie-list .btn-secondary:hover {
+  background-color: #ffe74c; /* Changes to red on hover */
+  color: black; /* Text turns white on hover */
+}
+
+/* General button styling with higher specificity */
+#musical-Movie-list .btn {
+  display: inline-block; /* Makes the button inline-block like .movie-btn */
+  background-color: #ffe74c; /* Same background color as your .movie-btn */
+  color: #2f2f2f; /* Text color */
+  padding: 12px 20px; /* Adjust padding to match your desired look */
+  border-radius: 25px; /* Rounded corners */
+  border: 2px solid #2f2f2f; /* Border styling to match .movie-btn */
+  text-decoration: none; /* Removes any default text decorations */
+  font-weight: bold; /* Makes text bold */
+  margin-top: 10px; /* Adds top margin for spacing */
+  transition: 0.3s; /* Smooth transition for hover effect */
+  width: 100%; /* Make button full width */
+  text-align: center; /* Center align text */
+}
+
+/* Primary button (Write Review) */
+#musical-Movie-list .btn-primary {
+  background-color: #ffe74c;
+  color: #2f2f2f;
+  border: 2px solid #2f2f2f; /* Same border color */
+}
+
+/* Hover effect for primary button */
+#musical-Movie-list .btn-primary:hover {
+  background-color: #2f2f2f; /* Changes to dark grey on hover */
+  color: white; /* Text turns white on hover */
+}
+
+/* Secondary button (View Reviews) */
+#musical-Movie-list .btn-secondary {
+  background-color: #eb3737;
+  color: white;
+  border: 2px solid #2f2f2f; /* Same border color */
+}
+
+/* Hover effect for secondary button */
+#musical-Movie-list .btn-secondary:hover {
+  background-color: #2f2f2f; /* Changes to dark grey on hover */
+}
+
+/* Styling for the search bar
+#search-bar {
+  margin-top: 20px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#search-bar:focus {
+  outline: none;
+  border-color: #007bff;
+} */
+
+/* Styling for the search bar (MUSICAL PAGE)*/
+#musical-div-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+#search-label {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-right: 10px;
+}
+#muscial-search {
+  width: 30em;
+  padding: 10px;
+  border: 1px solid #6f6e6e;
+}
+
+#muscial-search:focus {
+  outline: none;
+  border-color: #eb3737;
+}
+
+#search-btn {
+  padding: 10px;
+  background-color: rgba(47, 47, 47, 0.8);
+  color: #fffffc;
+  transition: 0.3s;
+}
+
+#search-btn:hover {
+  background-color: #2f2f2f;
+}
+
+#div-searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#searchBar {
+  width: 30em;
+  padding: 10px;
+  border: 1px solid #6f6e6e;
+}
+
+#searchBar:focus {
+  outline: none;
+  border-color: #eb3737;
+}
+
+/* Modal styling */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8); /* Background color */
+}
+
+/* Modal content */
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  border-radius: 10px;
+}
+
+/* Close button */
+.close {
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Rating system styling */
+.rating {
+  margin: 10px 0;
+}
+
+.rating label {
+  margin-right: 5px;
+}
+
+/* Submit and Cancel buttons */
+button[type="submit"],
+button[type="button"] {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: #ffe74c;
+  color: #2f2f2f;
+}
+
+button[type="submit"]:hover {
+  background-color: #eb3737;
+  color: white;
+}
+
+button[type="button"] {
+  background-color: #ccc;
+  color: white;
+}
+
+button[type="button"]:hover {
+  background-color: #888;
+}
+/* Center the review container */
+#review-container {
+  background-color: #2f2f2f;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center; /* Centers text and inline-block elements like buttons */
+}
+
+/* Styling for the textarea */
+#reviewText {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  color: #2f2f2f;
+  border: 2px solid #2f2f2f;
+  resize: vertical;
+  font-size: 1rem;
+  margin-bottom: 20px; /* Adds space below the text area */
+}
+
+/* Center stars rating container */
+.stars-container {
+  display: flex;
+  justify-content: center; /* Centers stars horizontally */
+  margin-bottom: 20px; /* Adds space below the stars */
+}
+
+/* Style for individual star icon */
+.star {
+  font-size: 2rem; /* Adjust the size of the stars */
+  color: #ffe74c; /* Yellow color for the stars */
+  cursor: pointer;
+  margin: 0 5px; /* Adds spacing between stars */
+}
+
+/* Center buttons */
+.button-container {
+  display: flex;
+  justify-content: center; /* Centers buttons horizontally */
+  gap: 15px; /* Adds space between buttons */
+}
+
+/* Styling for the buttons */
+#submitButton,
+#cancelButton {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 2px solid #2f2f2f;
+  background-color: #ffe74c;
+  color: #2f2f2f;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#submitButton:hover,
+#cancelButton:hover {
+  background-color: #eb3737; /* Changes background to red on hover */
+  color: white;
+}
+
+/* Styling for the review list */
+#reviewsSection {
+  display: none; /* Hidden by default, shown when reviews are displayed */
+  background-color: #2f2f2f;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#reviewsList {
+  margin-bottom: 20px;
+}
+
+.review-item {
+  background-color: #333;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 2px solid #2f2f2f;
+}
+
+.review-item h3 {
+  margin: 0;
+}
+
+.review-item p {
+  margin: 10px 0;
+}
+
+#backToMovies {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 2px solid #2f2f2f;
+  background-color: #ffe74c;
+  color: #2f2f2f;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#backToMovies:hover {
+  background-color: #eb3737;
+  color: white;
+}
+
+/*Reviews Page Styling*/
+/* Container for all reviews */
+.movie-review-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows reviews to wrap if there's no space */
+  gap: 10px; /* Space between reviews */
+  justify-content: center; 
+  align-items: flex-start; /* Aligns items at the top */
+  padding: 20px; /* Adds padding around container */
+  margin-top: 20px;
+}
+
+/* Individual review section */
+.movie-review-section {
+  border: 2px solid #2F2F2F;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background: #F5E1DA;
+  width: 250px; /* Fixed width for each review */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  text-align: center;
+  margin-bottom: 20px; /* Space below each review */
+}
+
+/* Movie poster styling */
+.movie-image {
+  width: 150px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Individual review item */
+.review-item {
+  background: #fffffc;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  width: 100%; 
+}
+
+
+
+
+/* COLORS 
+DARK GRAY -- #2F2F2F
+RED -- #EB3737
+YELLOW -- #FFE74C
+POWDER BLUE -- #B1B7D1
+LIGHT YELLOW -- #fffffc
+*/
+

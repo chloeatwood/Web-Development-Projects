@@ -1,0 +1,115 @@
+/* Color codes we are using for theme:
+fffff2 - ivory
+1b4965 - dark blue
+d89a9e - light pinkish
+7a306c - dark pinkish purplish
+57a773 - green
+ */
+
+ #recipe-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    /* Ensures each card aligns to the top and doesn't stretch */
+    align-items: flex-start; 
+}
+
+ .recipe-card {
+    width: 300px;
+    background: #deded2;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    
+    /* Makes sure each card has independent height */
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-card h2 {
+    color: #1b4965;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.recipe-card h3 {
+    color: #7a306c;
+    text-align: left;
+    margin: 10px;
+}
+
+
+.recipe-card p {
+    color: black;
+    margin: 10px;
+}
+
+.recipe-card img {
+    width: 100%;
+    /* Ensures images do not force card height */
+    height: auto; 
+    object-fit: contain; 
+    outline: 4px solid #1b4965;
+}
+
+.recipe-card ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    color: #fffff2;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+.recipe-card ul li {
+    background-color: #1b4965;
+    color: #fffff2;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.recipe-card p {
+    /* Allows the description to expand naturally */
+    flex-grow: 1; 
+}
+
+/* Ensures the bottom elements are aligned correctly */
+.recipe-card h3,
+.recipe-card p:last-of-type {
+    margin-bottom: 10px;
+}
+
+/* Style the View More button */
+.recipe-card button {
+    background-color: #1b4965; /* Dark blue */
+    color: #fffff2; /* Ivory */
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.recipe-card button:hover {
+    background-color: #57a773; /* Green */
+    transform: scale(1.05);
+}
+
+.recipe-card button:active {
+    transform: scale(0.95);
+}
+
